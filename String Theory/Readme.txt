@@ -1,12 +1,4 @@
-module org.example.stringtheory {
-    requires javafx.controls;
-    requires javafx.fxml;
-
-
-    opens org.example.stringtheory to javafx.fxml;
-    exports org.example.stringtheory;
-}
-
+Description:
 Let's implement the simplest search engine possible ever. 
 It should search for a specific word in a multi-word input line.
 The input line contains several words separated by a space. 
